@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-form {
+  min-height: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 2vmin;
+  padding-top: 2.5%;
+}
+
+.App-link {
+  color: #61dafb;
+  cursor: pointer;
+}
+
+.App-input {
+  line-height: 1.5vmin;
+  vertical-align: text-bottom;
+  font-size: 1.5vmin;
+  text-align: center;
+}
+
+.App-checkbox {
+  height: 1.5vmin;
+  width: 1.5vmin;
+}
+
+.App-history-table-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 20%;
+  padding-top: 30px;
+}
+
+.App-history-table-row {
+  display: flex;
+  flex: 1;
+  min-height: 5%;
+  border: 1px solid #61dafb;
+}
+
+.App-history-table-header {
+  font-weight: bold;
+}
+
+.App-history-table-cell {
+  flex: 1;
+  min-height: 5%;
+  padding: 5px;
+  border: 1px solid #61dafb;
+}
